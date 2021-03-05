@@ -1,37 +1,72 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio Noval Fatan Azis</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">Noval FA</div>
+      <div class="header-list">
+        <ul>
+          <li><a href="#about-link">Profil</a></li>
+          <li><a href="#work-link">Project</a></li>
+          <li><a href="#contact-link">Hubungi Saya</a></li>
+        </ul>
+      </div>
+    </div>
 
-You can use the [editor on GitHub](https://github.com/novalfatanazis/Noval-Fatan-Azis.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+    <div class="main">
+      <div class="copy-container">
+        <h1>Noval Fatan Azis<span>.</span></h1>
+        <h2>MY PORTFOLIO</h2>
+        <img src="images/lol.png" alt="valle">
+      </div>
+      
+      <div class="about">
+        <h3><a id="about-link">Profil</a></h3>
+        <p>hello my name is noval fatan azis i live in lebakwangi village, lebakwangi sub-district, kuningan district i am currently studying at widyatama university majoring in film and television my hobby is sports and my goal is to become an animator and be able to make animation in hollywood.</p>
+      </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      <div class="contents">
+        <h3><a id="work-link">Project</a></h3>
+        <div class="contents-item">
+          <img src="images/61.png">
+          <p>Monokrom Lingkaran</p>
+        </div>
+        <div class="contents-item">
+          <img src="images/63.png">
+          <p>Analogous Bidang</p>
+        </div>
+        <div class="contents-item">
+          <img src="images/64.jpg">
+          <p>Analogous Kotak</p>
+        </div>
+        
+      </div>
+      
+      <div class="contact-form">
+        <h3 class="contact-title"><a id="contact-link">Hubungi Saya</a></h3>
+        <input placeholder="Email (Diperlukan)">
+        <br>
+        <textarea placeholder="Message (Diperlukan)"></textarea>
+        <br>
+        <input class="contact-submit" type="submit" value="Kirim">
+        <p>* Required fields must be filled</p>
+        
+      </div>
+    </div>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/novalfatanazis/Noval-Fatan-Azis.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <div class="footer">
+      <div class="footer-logo">Noval FA</div>
+      <div class="footer-list">
+        <ul>
+          <li><a href="#about-link">Profil</a></li>
+          <li><a href="#work-link">Project</a></li>
+          <li><a href="#contact-link">Hubungi Saya</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
